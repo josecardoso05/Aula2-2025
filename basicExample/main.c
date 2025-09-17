@@ -7,8 +7,8 @@ int main(void) {
     scanf(" %d", &i);
     while ( i != 0)
     {
-        printf("Faltam %i minutos para terminar teste\n", i);
-        sleep(60);
+        printf("Faltam %i segundos para terminar teste\n", i);
+        sleep(1);
         i--;
     }
     return 0;
